@@ -10,4 +10,7 @@ format:
 typecheck:
     uv run basedpyright
 
+cov:
+    uv run pytest --cov
+
 check: lint typecheck test

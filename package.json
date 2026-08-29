@@ -1,0 +1,23 @@
+{
+  "name": "python-simulation",
+  "version": "1.0.0",
+  "description": "This is a tesst.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/w4daka/python-simulation.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/w4daka/python-simulation/issues"
+  },
+  "homepage": "https://github.com/w4daka/python-simulation#readme",
+  "devDependencies": {
+    "cspell": "^10.1.1"
+  }
+}

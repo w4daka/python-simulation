@@ -1,13 +1,13 @@
-from main import classify_number
+from main import sum_to
 
 
-def test_positive() -> None:
-    assert classify_number(10) == "positive"
+def test_sum_to_zero() -> None:
+    assert sum_to(0) == 0
 
 
-def test_negative() -> None:
-    assert classify_number(-3) == "negative"
+def test_sum_to_one() -> None:
+    assert sum_to(1) == 1
 
 
-def test_zero() -> None:
-    assert classify_number(0) == "zero"
+def test_sum_to_three() -> None:
+    assert sum_to(3) == 6

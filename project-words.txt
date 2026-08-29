@@ -1,0 +1,8 @@
+basedpyright
+neotest
+pytest
+Ruff
+uv
+venv
+pycache
+debugpy

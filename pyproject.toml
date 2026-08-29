@@ -21,3 +21,5 @@ dev = [
 typeCheckingMode = "strict"
 [tool.ruff.lint]
 extend-select = ["ANN"]
+[tool.coverage.run]
+branch = true
