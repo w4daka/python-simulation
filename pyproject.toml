@@ -9,6 +9,7 @@ dependencies = []
 [dependency-groups]
 dev = [
     "basedpyright>=1.39.10",
+    "debugpy>=1.8.21",
     "pytest>=9.1.1",
     "pytest-benchmark>=5.3.0",
     "pytest-cov>=7.1.0",
