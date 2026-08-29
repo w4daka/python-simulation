@@ -1,0 +1,13 @@
+test:
+    uv run pytest
+
+lint:
+    uv run ruff check .
+
+format:
+    uv run ruff format .
+
+typecheck:
+    uv run basedpyright
+
+check: lint typecheck test
